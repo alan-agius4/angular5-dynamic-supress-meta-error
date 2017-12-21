@@ -1,4 +1,7 @@
-# Angular 5 @dynamic supress metadata error
+# Angular 5 @dynamic supress metadata error Issue #21123
+
+## Angular Issue
+This is for Angular issue: https://github.com/angular/angular/issues/21123
 
 ## General info
 I am bundling a library and having set `skipTemplateCodegen` and `strictMetadataEmit` to `true`.

@@ -1,0 +1,20 @@
+{
+  "name": "angular5-dynamic-supress-meta-error",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ngc"
+  },
+  "author": "Alan Agius",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/core": "~5.1.2",
+    "rxjs": "^5.5.5",
+    "zone.js": "^0.8.18"
+  },
+  "devDependencies": {
+    "@angular/compiler": "~5.1.2",
+    "@angular/compiler-cli": "~5.1.2",
+    "typescript": "2.5.3"
+  }
+}

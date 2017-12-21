@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+		"module": "es2015",
+		"target": "es5",
+		"moduleResolution": "node",
+		"lib": [
+			"dom",
+			"es2015"
+		],
+		"baseUrl": ".",
+		"experimentalDecorators": true,
+		"noUnusedParameters": true,
+		"skipLibCheck": true,
+		"outDir": "./dist"
+	},
+	"exclude": [
+		"node_modules"
+	],
+	"files": [
+		"./public_api.ts"
+	],
+	"angularCompilerOptions": {
+		"genDir": "./dist",
+		"skipTemplateCodegen": true,
+		"strictMetadataEmit": true,
+		"flatModuleOutFile": "index.js",
+		"flatModuleId": "angular5-dynamic-supress-meta-error"
+	}
+}
